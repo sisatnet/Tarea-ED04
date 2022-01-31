@@ -1,26 +1,31 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package cuentas;
 
 /**
- *
- * @author Sisat
+ * Clase Main del ejercicio ED04
+ * @author Víctor Tasis González
  */
 public class Main {
-
     public static void main(String[] args) {
-
+       //Ejecución método refactorizado en la tarea
         operativa_cuenta(2500);
     }
 
+    /**
+     * Método "operativa_cuenta" creado a través de refactorización, por orden de la tarea
+     * @param cantidad cantidad de inicio de la cuenta
+     */
     public static void operativa_cuenta(float cantidad) {
-        CCuenta cuenta1;
-        double saldoActual;
+        //Atributos
+        CCuenta cuenta1; //Declaración de objeto
+        double saldoActual; 
+        //Instanciar objeto cuenta
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",cantidad,0);
+        //Guardar saldo actual en variable
         saldoActual = cuenta1.estado();
+        //Mostrar saldo
         System.out.println("El saldo actual es"+ saldoActual );
+        
+        //Realizar operaciones
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
