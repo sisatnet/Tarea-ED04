@@ -68,6 +68,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Get para que devuelve el nombre
      * @return el nombre
      */
     public String getNombre() {
@@ -75,6 +76,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Set para que guarde el nombre
      * @param nombre el nombre a guardar
      */
     public void setNombre(String nombre) {
@@ -82,6 +84,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Get para que devuelve la cuenta
      * @return la cuenta
      */
     public String getCuenta() {
@@ -89,6 +92,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Set para que guarde la cuenta
      * @param cuenta la cuenta a guardar
      */
     public void setCuenta(String cuenta) {
@@ -96,6 +100,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Get para que devuelve el saldo de la cuenta
      * @return el saldo de la cuenta
      */
     public double getSaldo() {
@@ -103,6 +108,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Set para que guarde el saldo de la cuenta
      * @param saldo el saldo a guardar
      */
     public void setSaldo(double saldo) {
@@ -110,6 +116,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Get para que devuelve el tipo de Interés
      * @return el tipo de Interés
      */
     public double getTipoInterés() {
@@ -117,6 +124,7 @@ public class CCuenta {
     }
 
     /**
+     * Método Set para que guarde el tipo de Interés
      * @param tipoInterés el tipo de Interés a guardar
      */
     public void setTipoInterés(double tipoInterés) {
